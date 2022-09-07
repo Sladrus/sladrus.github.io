@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* Default Axis is X*/
+    justify-content: center;
+    /* Main Axis */
+    align-items: center;
+    /* Cross Axis */
+}
+
+.indicator {
+    width: 50vw;
+}
