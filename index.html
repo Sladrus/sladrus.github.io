@@ -52,15 +52,25 @@
 </head>
 
 <body style="overflow: hidden">
-  <div id="loading_indicator" class="container">
-    <img class="indicator" src="./icons/animation_500_l7qu23dl.gif" />
-  </div>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script>
+    window.addEventListener("flutter-first-frame", function () {
+      var loadingIndicator = document.getElementById("loading_indicator");
+      if (loadingIndicator) {
+        loadingIndicator.remove();
+      }
+    });
+  </script>
   <script>
     window.Telegram.WebApp.ready();
     window.Telegram.WebApp.expand();
     console.log(window.Telegram.WebApp);
   </script>
+
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./icons/animation_500_l7qu23dl.gif" />
+  </div>
+  <script src="main.dart.js" type="application/javascript"></script>
+
   <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
@@ -75,14 +85,7 @@
       });
     });
   </script>
-  <script>
-    window.addEventListener("flutter-first-frame", function () {
-      var loadingIndicator = document.getElementById("loading_indicator");
-      if (loadingIndicator) {
-        loadingIndicator.remove();
-      }
-    });
-  </script>
+
 
 </body>
 
