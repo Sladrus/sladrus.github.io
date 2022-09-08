@@ -3,7 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "48306a447d1ec7832ac0f9b67a0f4a34",
+  "assets/AssetManifest.json": "6b70a99959b07d09066c65ddbf4e1f9f",
+"assets/dogs/162816-dog-face-free-png-hq.png": "dfc446fd8074c3f7ec7c5d95ce61b15c",
+"assets/dogs/580b57fbd9996e24bc43bbe0.png": "e6747af493a173c2c916de86377c9eb5",
+"assets/dogs/5a005216092a74e5b928e76b.png": "a1e4167efdc0e34b26481fc5362f9702",
+"assets/dogs/dog-png-30.png": "ec36c64e1c82c45f370ac37f577b1dd6",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/gif/7211975.gif": "f2f88e8b1a7d678e57414a3e74c484a1",
@@ -13,6 +17,10 @@ const RESOURCES = {
 "assets/icons/80106-telegram-icon.json": "a55caebdc328ac869832937f31b8eaf4",
 "assets/NOTICES": "64f86f3a90d8956310d83235d1f1d20f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/web/assets/dogs/162816-dog-face-free-png-hq.png": "dfc446fd8074c3f7ec7c5d95ce61b15c",
+"assets/web/assets/dogs/580b57fbd9996e24bc43bbe0.png": "e6747af493a173c2c916de86377c9eb5",
+"assets/web/assets/dogs/5a005216092a74e5b928e76b.png": "a1e4167efdc0e34b26481fc5362f9702",
+"assets/web/assets/dogs/dog-png-30.png": "ec36c64e1c82c45f370ac37f577b1dd6",
 "assets/web/assets/gif/7211975.gif": "f2f88e8b1a7d678e57414a3e74c484a1",
 "assets/web/assets/gif/7403022.gif": "937f753660cfde779bfc8eb37bacb3f5",
 "assets/web/assets/gif/7742970.gif": "e8aed905c43d9c0d0071a9c54dc29cef",
@@ -29,9 +37,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "9e043b3bbfb2660b9d7f64c797400c2c",
-"/": "9e043b3bbfb2660b9d7f64c797400c2c",
-"main.dart.js": "76341ac86768a2d679be07b805289c3a",
+"index.html": "79ed8adcc22d05183e4cdd9381ce138d",
+"/": "79ed8adcc22d05183e4cdd9381ce138d",
+"main.dart.js": "3ab3272396fe7ffb751497e421d8a1fb",
 "manifest.json": "6a4e9cd324d72a32feda6867df80bbf5",
 "styles.css": "36de02a4e5001400b1030e57a6ca07e5",
 "version.json": "08587b001ef0011ab9281d68b7e48a99"
