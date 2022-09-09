@@ -52,7 +52,8 @@
   <script src="flutter.js" defer></script>
 </head>
 
-<body style="position: fixed; inset: 0px; overflow: hidden; padding: 0px; margin: 0px; user-select: none; touch-action: none;">
+<body
+  style="position: fixed; inset: 0px; overflow: hidden; padding: 0px; margin: 0px; user-select: none; touch-action: none;">
   <script>
     window.Telegram.WebApp.expand();
 
@@ -75,20 +76,21 @@
         return engineInitializer.initializeEngine();
       }).then(function (appRunner) {
         return appRunner.runApp();
-        setTimeout(function () {
-          loading_indicator.remove();
-        }, 5000);
+
       });
     });
   </script>
-  <!-- <script>
+  <script>
+
     window.addEventListener("flutter-first-frame", function () {
       var loadingIndicator = document.getElementById("loading_indicator");
       if (loadingIndicator) {
-        loadingIndicator.remove();
+        setTimeout(function () {
+          loading_indicator.remove();
+        }, 15000);
       }
     });
-  </script> -->
+  </script>
 
 </body>
 
