@@ -33,7 +33,7 @@
   <link rel="icon" type="image/png" href="favicon.png" />
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
-  <title>flutter_webapp</title>
+  <title>Dogs</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <!-- <script type="text/javascript">
@@ -45,7 +45,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1778615480';
+    var serviceWorkerVersion = '3950756188';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -84,6 +84,12 @@
         }, 15000);
       }
     });
+  </script>
+  <script>
+    let tg = window.Telegram.WebApp;
+    tg.ready();
+    tg.expand();
+    tg.enableClosingConfirmation();
   </script>
 </body>
 
