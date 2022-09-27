@@ -52842,7 +52842,7 @@ A.MI.prototype={
 $1(a){B.b.J(this.a.CW,a.gvE())},
 $S:13}
 A.a47.prototype={
-$0(){var s,r="http://host1849459.hostland.pro",q=t.nJ
+$0(){var s,r="https://sladkovf.ru",q=t.nJ
 q=new A.kq(r,B.kD,new A.fp(q),new A.fp(q),!1,!1)
 q.nt()
 q.x=r
@@ -52930,7 +52930,7 @@ gdq(a){return this.b},
 gvq(){return this.c},
 gkp(a){return this.d}}
 A.mS.prototype={
-L(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=null,a1="http://host1849459.hostland.pro/uploads/",a2=17976931348623157e292,a3="Comfortaa",a4=4278860900
+L(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=null,a1="https://sladkovf.ru/uploads/",a2=17976931348623157e292,a3="Comfortaa",a4=4278860900
 $.aJ()
 s=$.bQ
 if(s==null)s=$.bQ=B.a0
@@ -53063,7 +53063,7 @@ $S:324}
 A.a_D.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l=null,k="Comfortaa",j=this.a,i=A.hY(15),h=J.a7v(j.a[b])
 h.toString
-h=A.Mi(B.dQ,new A.iw(B.d.V("http://host1849459.hostland.pro/uploads/",h)))
+h=A.Mi(B.dQ,new A.iw(B.d.V("https://sladkovf.ru/uploads/",h)))
 s=A.hY(15)
 r=A.b([new A.h_(1,B.jU,B.ac,new A.t(0,0),1)],t.xq)
 q=J.a7w(j.a[b])
